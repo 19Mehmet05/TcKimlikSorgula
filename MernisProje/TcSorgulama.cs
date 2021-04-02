@@ -20,7 +20,7 @@ namespace MernisProje
             Isim = "Mehmet";
             Soyisim = "Büyükbayram";
             DogumTarihi = new DateTime(2000, 1, 1);
-            TcKimlikNo = "11639673087";
+            TcKimlikNo = "11111111111";
             return client.TCKimlikNoDogrula(
                 Convert.ToInt64(TcKimlikNo),
                 Isim.ToUpper(),
